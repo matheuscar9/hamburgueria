@@ -1,0 +1,313 @@
+/* geral */
+html {
+	font-family: 'Open Sans', sans-serif;
+}
+
+body {
+	margin: 0;
+}
+
+h1, h2, h3, h4, h5, p, span {
+	margin: 0;
+	color: #000000;
+}
+
+.container {
+	max-width: 1920px;
+	width: 100%;
+	position: relative;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+/* hide on desktop */
+.nav-container .btn-menumobile {
+	display: none;
+}
+
+/* header */
+header {
+	position: relative;
+	top: 0;
+	height: auto;
+	width: 100%;
+}
+
+/* navbar */
+nav {
+	position: fixed;
+	top: 0;
+	left: 0;
+	height: 100px;
+	width: 100%;
+	z-index: 1;
+	background-color: #FFC55A;
+	border-bottom: 1px solid #002379;
+}
+
+nav:after {
+	clear: both;
+	content: "";
+	display: block;
+}
+
+.nav-container {
+	max-width: 1200px;
+	position: relative;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#logo {
+	width: 50px;
+	height: 50px;
+	margin-top: 25px;
+}
+
+.nav-container ul {
+	float: right;
+	height: 100px;
+	line-height: 100px;
+	margin: 0;
+}
+
+.nav-container ul li {
+	list-style: none;
+	float: left;
+	margin: 0 15px;
+}
+
+.nav-container li a {
+	text-decoration: none;
+	color: #00215E;
+	transition: .5s;
+}
+
+.nav-container li a:hover {
+	color: #2C4E80;
+}
+
+/* banner*/
+#main-banner {
+	background: url('img/Texas\ BBQ\ _\ Branding\ &\ Packaging\ Design\ \(1\).jpeg') no-repeat;
+	background-size: cover;
+	background-position: 0 55%;
+	position: relative;
+	margin-top: 100px;
+}
+
+#search-form {
+	position: relative;
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 15em;
+	padding-bottom: 15em;
+	text-align: center;
+}
+
+
+#search-form h1 {
+	font-size: 40px;
+}
+
+#search-form p {
+	margin-top: 30px;
+	margin-bottom: 60px;
+	font-size: 20px;
+	font-weight: 400;
+}
+
+#search-form input, #search-form select, #sendjobs input, #sendjobs textarea {
+	background-color: #FFF;
+	border-radius: 5px;
+	border-color: transparent;
+	padding: 10px 20px;
+	font-size: 18px;
+	margin: 0 10px;
+}
+
+#search-form input[type=submit], #sendjobs input[type=submit] {
+	background-color: #3c69ad;
+	text-transform: uppercase;
+	color: #fffcfc;
+	cursor: pointer;
+	transition: 0.5s;
+}
+
+#search-form input[type=submit]:hover, #sendjobs input[type=submit]:hover {
+	background-color: #021024;
+}
+
+/* mais pedidos*/
+
+#lastjobs-container {
+	text-align: center;
+	padding: 100px 0;
+}
+
+.wrapper {
+	max-width: 1200px;
+	position: relative;
+	margin-left: auto;
+	margin-right: auto;
+
+}
+
+#lastjobs-conteiner h1 {
+	font-size: 36px;
+	margin-bottom: 50px;
+
+}
+
+#lastjobs-conteiner ul {
+	padding: 0;
+	border: 1px solid #ccc;
+	border-radius: 10px;
+
+}
+
+#lastjobs-conteiner ul li {
+	list-style: none;
+	text-align: left;
+	border-bottom:solid 1px #ccc;
+	height:80px;
+	position: relative;
+}
+
+#lastjobs-conteiner ul li:last-child {
+	border: none;
+
+}
+
+.clickarea {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+.company-box {
+	display: inline-block;
+	width: 50%;
+	position: relative;
+	padding-left: 1%;
+}
+
+.company-box img {
+	width: 100px;
+	margin-top: 2.5px;
+}
+
+.company-info {
+	display: inline-block;
+	margin-left: 10px;
+	margin-top: 10px;
+	text-align:  left;
+	position: absolute;
+}
+
+.job-type {
+	display: inline-block;
+	width: 20%;
+	height: 100%;
+	position: absolute;
+	padding-top: 30px;
+	right: 1%;
+	text-align: center;
+	font-weight: bold;
+	text-transform: uppercase;
+	font-size: 12px;
+	color: #FFF;
+}
+
+.job-type span {
+	display: block;
+	width: 100%;
+	height: 20px;
+	line-height: 20px;
+	border-radius: 5px;
+	color: #FFF;
+}
+
+#sendjobs-container {
+	background: url(img/Hambúrgueres\ de\ vista\ superior\ com\ espaço\ de\ cópia\ _\ Foto\ Premium\ \(1\).jpeg) no-repeat;
+	background-size: cover;
+	background-position: 0 25%;
+	padding: 15em 0;
+
+}
+
+#sendjobs-container h2, #sendjobs-container p {
+	width: 600px;
+	color: #021024;
+}
+
+#sendjobs-container h2 {
+	font-size: 36px;
+	margin-bottom: 50px;
+}
+
+#sendjobs-container p {
+	font-size: 18px;
+	margin-bottom: 50px;
+}
+
+footer {
+	background-color: #FFC55A;
+	padding: 2em 0;
+	padding-bottom: 10px;
+	border-top: 1px solid #FFC55A;
+}
+
+footer h2, footer p, footer span {
+	color: #021024;
+}
+
+footer h2 {
+	font-weight: 400;
+}
+
+footer ul {
+	padding: 0;
+}
+
+footer li {
+	list-style: none;
+}
+
+.footer-box {
+	width: 40%;
+	padding: 1%;
+	float: left;
+}
+
+footer .wrapper:after {
+	clear: both;
+	content: "";
+	display: block;
+}
+
+.company-footer {
+	width: 80%;
+}
+
+.company-footer h2 {
+	margin-top: 20px;
+}
+
+.footer-list li {
+	margin-bottom: 15px;
+}
+
+.footer-list li:after {
+	clear: both;
+	content: "";
+	display: block;
+}
+
+#logoo {
+	width: 100px;
+	height: 100px;
+}
